@@ -2,4 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
+body,html {
+    height: 100vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: rgb(3, 15, 24);
 
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+@media (max-width: 1024px) {
+    .html {font-size: 93.75%;}
+}
+
+@media (max-width: 768px) {
+    html{font-size: 87.5%;}
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#homeLink {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+#homeLink::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f97316;
+    transition: all 0.3s ease;
+}
+
+#homeLink:hover {
+    width: 80%;
+    filter:brightness(0.8)
+}
+
+#homeLink:hover::after {
+    width: 80%;
+}
+
+#favLink {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+#favLink::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f97316;
+    transition: all 0.3s ease;
+}
+
+#favLink:hover {
+    width: 80%;
+    filter:brightness(0.8)
+}
+
+#favLink:hover::after {
+    width: 80%;
+}
+
+#aboutLink {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+#aboutLink::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f97316;
+    transition: all 0.3s ease;
+}
+
+#aboutLink:hover {
+    width: 80%;
+    filter:brightness(0.8)
+}
+
+#aboutLink:hover::after {
+    width: 80%;
+}
