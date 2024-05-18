@@ -11,6 +11,7 @@ export function Header() {
                     <li><Link href="/" id="homeLink">Home</Link></li>
                     <li><Link href="/Favorites" id="favLink">Favorites</Link></li>
                     <li><Link href="/About" id="aboutLink">About</Link></li>
+                    <li><Link href="/SignIn" id="loginLink">Login/Register</Link></li>
                 </ul>
             </nav>
         </header>

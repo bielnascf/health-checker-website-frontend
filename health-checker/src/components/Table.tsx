@@ -3,7 +3,7 @@ import { OnlineIcon } from "./OnlineIcon";
 export function Table() {
     return (
         <section className="flex justify-center items-center mt-20 [height: 100%]">
-            <table className="border-collapse border border-slate-600 text-white bg-white/15 w-[768px]">
+            <table className="border-collapse border border-slate-600 text-white bg-white/15 w-[768px] rounded-xl overflow-hidden">
                 <thead>
                     <tr>
                         <th className="border border-slate-600 p-6">URL</th>
